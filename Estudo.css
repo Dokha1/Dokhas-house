@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,300&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('pexels-vecislavas-popa-1643389.jpg');
+    background-size: cover;
+}
+header{
+    width: 100vw;
+    color:aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vw;
+   
+    
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    
+    
+    
+}
+.nav a:hover{
+    text-decoration: underline;
+    color:rgb(0, 248, 165);
+}
+.nav{
+    display: flex;
+    gap: 2vw;
+}
+.titulo{
+    padding-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h2{
+    font-size: 4rem;
+    color:aquamarine;
+}
+p{
+    color: white;
+    font-size: 1.2rem;
+    width: 35vw;
+    text-align: center;
+}
+button{
+    font-size: 1.1rem;
+    width: 170px;
+    background: transparent;
+    color:aquamarine;
+    border-radius: 30px;
+    cursor: pointer;
+    border: solid aquamarine 0.1px;
+    height: 3rem;
+    font-weight: bold;
+}
+.btn{
+    padding-top: 10vh;
+    display: flex;
+    gap: 5vw;
+    text-decoration: ;
+    
+}
